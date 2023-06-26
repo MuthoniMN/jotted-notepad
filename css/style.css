@@ -43,7 +43,7 @@ header  button,
 
 header button:hover,
 .btns button:hover{
-    transform: scale(1.15);
+    transform: scale(1.05);
     background: transparent;
     color: rebeccapurple;
     border: 2px solid rebeccapurple;
@@ -99,6 +99,22 @@ main + section > section{
     padding: 8px 0;
     border-bottom: 1px solid #000;
     cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.savedNote:hover{
+    margin-left: 32px;
+}
+
+input, 
+textarea{
+    padding: 6px;
+    border: 2px solid linen;
+}
+
+input:active,
+textarea:active{
+    border: 2px solid rebeccapurple;
 }
 
 @media screen and (max-width: 600px){
