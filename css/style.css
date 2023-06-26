@@ -112,8 +112,8 @@ textarea{
     border: 2px solid linen;
 }
 
-input:active,
-textarea:active{
+input:enabled,
+textarea:enabled{
     border: 2px solid rebeccapurple;
 }
 
