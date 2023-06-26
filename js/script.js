@@ -56,3 +56,8 @@ savedNotes.forEach((a) => {
         note.value = localStorage.getItem(a.innerHTML)
     })
 })
+
+// mobile navigation
+document.querySelector('#mobileMenu').addEventListener('click', () => {
+        document.querySelector('nav').classList.toggle('mobNav')
+})
