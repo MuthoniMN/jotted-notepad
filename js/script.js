@@ -48,3 +48,11 @@ function createNewNote() {
 }
 
 // editing a note
+let savedNotes = document.querySelectorAll('.savedNote')
+
+savedNotes.forEach((a) => {
+    a.addEventListener('click', () => {
+        title.value = a.innerHTML
+        note.value = localStorage.getItem(a.innerHTML)
+    })
+})

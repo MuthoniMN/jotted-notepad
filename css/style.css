@@ -25,6 +25,7 @@ button{
     background: transparent;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
+    cursor: pointer;
 }
 
 header > button,
@@ -75,4 +76,5 @@ main + section > section{
 .savedNote{
     padding: 8px 0;
     border-bottom: 1px solid #000;
+    cursor: pointer;
 }
